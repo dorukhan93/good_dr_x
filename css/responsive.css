@@ -1,3 +1,5 @@
+@import "base.css";
+
 /********--------responsive css of main index-----**********/
 /**********************991 & 1199 start******************/
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -361,7 +363,7 @@
 
 	.box_2 h2:before {
 		border-left: 58px solid transparent;
-		border-top: 45px solid #2ec8a6;
+		border-top: 45px solid var(--primary-color);
 		left: 0;
 	}
 
@@ -648,14 +650,14 @@
 	}
 
 	.navbar-nav {
-		border: 2px solid #2ec8a6;
+		border: 2px solid var(--primary-color);
 	}
 
 	.nav>li {
 		display: block;
 		overflow: hidden;
 		padding: 7px;
-		border-bottom: 2px solid #2ec8a6;
+		border-bottom: 2px solid var(--primary-color);
 	}
 
 	.nav>li:last-child {
@@ -663,7 +665,7 @@
 	}
 
 	.nav>li:hover {
-		background-color: #2ec8a6;
+		background-color: var(--primary-color);
 		transition: .7s;
 	}
 
@@ -1109,7 +1111,7 @@
 
 	.box_2 h2:before {
 		border-left: 52px solid transparent;
-		border-top: 45px solid #2ec8a6;
+		border-top: 45px solid var(--primary-color);
 		left: 6px;
 	}
 
@@ -2105,7 +2107,7 @@
 
 	.box_2 h2:before {
 		border-left: 52px solid transparent;
-		border-top: 45px solid #2ec8a6;
+		border-top: 45px solid var(--primary-color);
 		left: 6px;
 	}
 
