@@ -256,7 +256,7 @@ textarea:focus {
 .top_header_add ul li i {
 	margin-right: 10px;
 	line-height: 33px;
-	border: 2px solid #55d0b5;
+	border: 2px solid var(--primary-light);
 	width: 36px;
 	height: 36px;
 	text-align: center;
@@ -276,7 +276,7 @@ textarea:focus {
 	width: auto;
 	width: 170px;
 	text-align: center;
-	background-color: #22a98b;
+	background-color: var(--primary-light);
 	padding-top: 19px;
 	padding-bottom: 16px;
 }
@@ -879,7 +879,7 @@ ul ul>li.has-sub>a:before {
 }
 
 .cc_main_slide1 {
-	background: url('../images/slider_img.jpg');
+	background: url('../images/application/home_background_1.png');
 	width: 100%;
 	height: 880px;
 	background-size: cover;
@@ -889,7 +889,7 @@ ul ul>li.has-sub>a:before {
 }
 
 .cc_main_slide2 {
-	background: url('../images/slider_img2.jpg') 50% 0 repeat-y;
+	background: url('../images/application/home_background_2.png') 50% 0 repeat-y;
 	width: 100%;
 	height: 880px;
 	background-size: cover;
@@ -899,7 +899,7 @@ ul ul>li.has-sub>a:before {
 }
 
 .cc_main_slide3 {
-	background: url('../images/slider_img3.jpg') 50% 0 repeat-y;
+	background: url('../images/application/home_background_3.png') 50% 0 repeat-y;
 	width: 100%;
 	height: 880px;
 	background-size: cover;
@@ -1924,7 +1924,7 @@ ul ul>li.has-sub>a:before {
 
 .team_icon_hover ul li i {
 	line-height: 33px;
-	border: 2px solid #55d0b5;
+	border: 2px solid var(--primary-light);
 	width: 36px;
 	height: 36px;
 	text-align: center;
@@ -4356,7 +4356,7 @@ th {
 .doctor_info ul li i {
 	margin-right: 10px;
 	line-height: 33px;
-	border: 2px solid #55d0b5;
+	border: 2px solid var(--primary-light);
 	width: 36px;
 	height: 36px;
 	text-align: center;
