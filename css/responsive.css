@@ -479,7 +479,7 @@
 	}
 
 	.cat_img img {
-		display: none;
+		display: inside;
 	}
 
 	.contact_us_section {
@@ -684,7 +684,7 @@
 	}
 
 	.cat_img img {
-		display: none;
+		display: inside;
 	}
 
 	.about_us_wrapper {
@@ -896,7 +896,7 @@
 	}
 
 	.ser_section .cat_img img {
-		display: none;
+		display: inside;
 	}
 
 	.ser_abt img {
